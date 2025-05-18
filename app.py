@@ -4,7 +4,8 @@ from tensorflow.keras.models import load_model
 import joblib
 
 # 모델 및 스케일러 로딩
-model = load_model("model.h5")
+model = load_model("model.h5", compile=False)
+model.compile(optimizer='adam', loss='mse', metrics=['mae'])
 scaler = joblib.load("scaler.pkl")
 
 # 코르티솔 → 스트레스 수치 변환 함수
