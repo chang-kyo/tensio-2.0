@@ -76,7 +76,7 @@ st.markdown("""
 st.markdown(
     """
     <div style='text-align: center; font-size: 12px; color: gray; margin-top: 50px;'>
-        배포자: <b>여준호</b> |  
+        배포자: <b>손현, 여준호</b> |  
         Instagram: <a href='https://instagram.com/yeojiahp_' target='_blank'>@yeojiahp_</a> |  
         전화: 010-9941-3609 |  
         이메일: tomgraz@naver.com
